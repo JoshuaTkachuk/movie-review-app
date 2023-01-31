@@ -1,0 +1,88 @@
+.review{
+    overflow-wrap: break-word;
+    min-width: 375px;
+    width: 330px;
+    display:flex;
+    flex-direction: column;
+    transition: transform 450ms;
+    padding-left: 40px;
+    justify-content: flex-start;
+}
+.review-wrapper{
+    display: flex;
+    margin-top: 50px;
+}
+.delete-btn{
+    font-family: 'Poppins', sans-serif;
+    width: 75px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+}
+.edit-btn{
+    font-family: 'Poppins', sans-serif;
+    width: 75px;
+    background-color:yellowgreen;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+}
+.edit-btn:hover{
+    border:solid;
+    border-color: yellowgreen;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    border:solid;
+    border-color: lightcoral;
+    cursor: pointer;
+}
+.review-list-wrapper{
+    padding-top: 50px;
+}
+.list-wrapper{
+    display: flex;
+    max-width: 1920px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+@media(max-width: 1300px){
+    .list-wrapper{
+        display: flex;
+        max-width: 640px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+@media(min-width: 1300px) and (max-width: 1920px){
+    .list-wrapper{
+        display: flex;
+        max-width: 1280px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+.review-comment{
+    overflow-wrap: break-word;
+    margin-top: 2px;
+    color: white;
+}
+.buttons{
+    width: 160px;
+    height: 45PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie-img{
+    align-self: flex-start;
+    object-fit: contain;
+    max-width: 205px;
+    transition: transform 450ms;
+    padding: 10px;
+}
+.movie-img:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}

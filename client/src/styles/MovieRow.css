@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+    max-width: inherit;
+    align-items: center;
+}
+.row-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+}
+.movies{
+    display: flex;
+    overflow: scroll;
+    max-width: inherit;
+    height: 350px;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.movies::-webkit-scrollbar{
+    display: none;
+}
+.scroll-button{
+    padding: 10px;
+}
+.scroll-button-hidden{
+    padding: 10px;
+    visibility: hidden;
+}
+.scroll-button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.row-title{
+    color:white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}

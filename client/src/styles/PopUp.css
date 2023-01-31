@@ -1,0 +1,23 @@
+.popup{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50vw;
+    top:50vh;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: flex-end;
+}
+.popup-top-bar{
+    width: 640px;
+    height: 40px;
+    background-color: black;
+}
+.youtube-vid{
+    width: 75vw;
+    height: 75vh;
+}
+.x-button:hover{
+    cursor: pointer;
+}

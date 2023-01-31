@@ -1,0 +1,42 @@
+.search-btn{
+    outline: none;
+    color:white;
+    background-color: #141414;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    width: 75vw;
+    height: 75px;
+    border: none;
+    border-bottom: solid;
+}
+.search-movies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    max-width: 1600px;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.search-movie{
+    object-fit: contain;
+    max-width: 205px;
+    transition: transform 450ms;
+    padding: 10px;
+}
+.search-movie:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.search-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}

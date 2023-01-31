@@ -1,0 +1,82 @@
+.movie-poster{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 500px;
+    transition: transform 450ms;
+    padding: 10px;
+}
+.poster-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-wrapper{
+    display:flex;
+    margin-top: 75px;
+}
+.overview-text{
+    max-width: 400px;
+    min-width: 400px;
+}
+.overview-wrapper{
+    color: white;
+    padding-left: 40px;
+}
+.genres-tagline-wrapper{
+    display: flex;
+    color: white;
+    margin-top: 80px;
+    padding-left: 40px;
+}
+.tagline-text{
+    max-width: 250px;
+}
+.tagline-wrapper{
+    padding-left: 72px;
+}
+.genre-text{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.description-text{
+    margin-top: 5px;
+}
+.review-button{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-left:40px;
+    margin-top: 60px;
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+}
+.review-button:hover{
+    border:solid;
+    border-color: white;
+    cursor: pointer;
+}
+.edit-button:hover{
+    border:solid;
+    border-color: yellowgreen;
+    cursor: pointer;
+}
+.edit-button{
+    font-family: 'Poppins', sans-serif;
+    background-color: yellowgreen;
+    margin-left:40px;
+    margin-top: 60px;
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+}
+.trailer-button{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    width: 135px;
+    height: 35px
+}
+.trailer-button:hover{
+    border:solid;
+    border-color: white;
+    cursor: pointer;
+}
